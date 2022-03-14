@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Spring from './view/Spring'
+import UseSpring from './view/UseSpring'
+import ParallaxWorld from './view/ParallaxWorld';
+
+// portfolio
+import OpTrail from './view/Portfolio/OpTrail'
+import OpSlide from './view/Portfolio/OpSlide'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Sample /> */}
+      {/* <Spring /> */}
+      {/* <UseSpring /> */}
+      {/* <ParallaxWorld /> */}
+      <div id='portfolio'>
+        {/* <OpTrail /> */}
+        <OpSlide />
+      </div>
     </div>
-  );
+  )
 }
 
 export default App;
