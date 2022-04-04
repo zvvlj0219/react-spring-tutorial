@@ -1,0 +1,49 @@
+#main_scroll {
+  background-color: #000;
+}
+
+#main_scroll > h1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.content_1 {
+  height: 500px
+}
+
+.content_2 {
+  height: 500px
+}
+
+.content_3 {
+  height: 500px
+}
+
+.content_4 {
+  height: 500px
+}
+
+.content_1 .text,
+.content_2 .text,
+.content_3 .text,
+.content_4 .text {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+
+.content_1 img,
+.content_3 img {
+  display: block;
+  width: 230px;
+  margin: 0 auto;
+}
+
+.content_2 img,
+.content_4 img {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+  

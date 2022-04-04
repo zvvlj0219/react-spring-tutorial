@@ -5,6 +5,12 @@ import ParallaxWorld from './view/ParallaxWorld';
 // portfolio
 import OpTrail from './view/Portfolio/OpTrail'
 import OpSlide from './view/Portfolio/OpSlide'
+import OpPopupLogo from './view/Portfolio/OpPopupLogo';
+import OpRotateLogo from './view/Portfolio/OpRotateLogo';
+import ParallaxTutorial from './view/ParallaxTutorial';
+import ParallaxSmaple from './view/Portfolio/ParallaxSmaple';
+import FadeIn from './view/Portfolio/FadeIn';
+import ScrollLav from './view/Portfolio/ScrollLav';
 
 function App() {
   return (
@@ -14,8 +20,14 @@ function App() {
       {/* <UseSpring /> */}
       {/* <ParallaxWorld /> */}
       <div id='portfolio'>
+        {/* <ParallaxTutorial /> */}
         {/* <OpTrail /> */}
-        <OpSlide />
+        {/* <OpSlide /> */}
+        {/* <OpPopupLogo />  */}
+        {/* <OpRotateLogo /> */}
+        {/* <ParallaxSmaple /> */}
+        <FadeIn />
+        {/* <ScrollLav /> */}
       </div>
     </div>
   )

@@ -1,0 +1,17 @@
+.parent3Dtransform {
+  transform-style: preserve-3d;
+  perspective: 500px;
+}
+
+.headLogo {
+  /* transform:rotate3d(1,1,1,180deg); */
+  /* transform:rotateZ(-0.8turn); */
+  /* transform:rotateX(2.0rad) */
+  opacity: 0;
+  transition:  opacity 1s, transform 0.3s;
+}
+
+.headLogo:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
