@@ -1,0 +1,31 @@
+.parallax_content{
+  display: flex;
+  height: 100%;
+  padding: 50%;
+  justify-content: center;
+  align-items: center;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.front_content{
+  padding: 60px;
+  background-color: #fff;
+}
+.img_bg_01{
+  background: blueviolet;
+}
+.img_bg_02{
+  background: blueviolet;
+}
+.img_bg_03{
+  background: blueviolet;
+}
+.img_bg_04{
+  background: blueviolet;
+}
+.img_bg_05{
+  background: blueviolet;
+}
