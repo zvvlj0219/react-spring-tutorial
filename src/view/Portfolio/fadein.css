@@ -1,5 +1,6 @@
 #main_scroll {
   background-color: #000;
+  overflow: hidden;
 }
 
 #main_scroll > h1 {
@@ -27,6 +28,7 @@
 .content_1 .text,
 .content_2 .text,
 .content_3 .text,
+.content_5 .text,
 .content_4 .text {
   color: #fff;
   text-align: center;
@@ -34,7 +36,8 @@
 }
 
 .content_1 img,
-.content_3 img {
+.content_3 img,
+.content_5 img {
   display: block;
   width: 230px;
   margin: 0 auto;
