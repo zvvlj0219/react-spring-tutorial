@@ -9,8 +9,9 @@ import OpPopupLogo from './view/Portfolio/OpPopupLogo';
 import OpRotateLogo from './view/Portfolio/OpRotateLogo';
 import ParallaxTutorial from './view/ParallaxTutorial';
 import ParallaxSmaple from './view/Portfolio/ParallaxSmaple';
-import FadeIn from './view/Portfolio/FadeIn';
+import FadeIn from './view/Portfolio/FadeIn'
 import ScrollLav from './view/Portfolio/ScrollLav';
+import Setting from './view/Portfolio/Setting';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         {/* <OpRotateLogo /> */}
         {/* <ParallaxSmaple /> */}
         <FadeIn />
+        {/* <Setting /> */}
         {/* <ScrollLav /> */}
       </div>
     </div>
